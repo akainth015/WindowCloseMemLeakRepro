@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WindowCloseMemLeakRepro (Package)", "WindowCloseMemLeakRepro\WindowCloseMemLeakRepro (Package)\WindowCloseMemLeakRepro (Package).wapproj", "{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowCloseMemLeakRepro", "WindowCloseMemLeakRepro\WindowCloseMemLeakRepro\WindowCloseMemLeakRepro.csproj", "{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Debug|ARM64.Build.0 = Debug|ARM64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Debug|x64.ActiveCfg = Debug|x64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Debug|x64.Build.0 = Debug|x64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Debug|x64.Deploy.0 = Debug|x64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Debug|x86.ActiveCfg = Debug|x86
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Debug|x86.Build.0 = Debug|x86
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Debug|x86.Deploy.0 = Debug|x86
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Release|ARM64.ActiveCfg = Release|ARM64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Release|ARM64.Build.0 = Release|ARM64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Release|ARM64.Deploy.0 = Release|ARM64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Release|x64.ActiveCfg = Release|x64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Release|x64.Build.0 = Release|x64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Release|x64.Deploy.0 = Release|x64
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Release|x86.ActiveCfg = Release|x86
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Release|x86.Build.0 = Release|x86
+		{8D60D231-DC52-41EB-9A22-F6F3AC79B29B}.Release|x86.Deploy.0 = Release|x86
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Debug|ARM64.Build.0 = Debug|ARM64
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Debug|x64.ActiveCfg = Debug|x64
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Debug|x64.Build.0 = Debug|x64
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Debug|x86.ActiveCfg = Debug|x86
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Debug|x86.Build.0 = Debug|x86
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Release|ARM64.ActiveCfg = Release|ARM64
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Release|ARM64.Build.0 = Release|ARM64
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Release|x64.ActiveCfg = Release|x64
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Release|x64.Build.0 = Release|x64
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Release|x86.ActiveCfg = Release|x86
+		{0E6E3B39-F131-4CA7-8CCA-32F1637E3BCE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C58720BD-BD86-4012-AB69-ECC91DCD09BF}
+	EndGlobalSection
+EndGlobal
